@@ -1,0 +1,6 @@
+.display-grid-parent {
+  &__grid-parent {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
