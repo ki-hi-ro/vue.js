@@ -14,13 +14,10 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
   </head>
   <body>
-    <h2>はじめに</h2>
-    <div id="hello-vue">
-      {{ message }}
-    </div>
-    <h3>宣言的レンダリング</h3>
-    <div id="counter">
-      Counter: {{ counter }}
+    <div id="app">
+      <button @click="count++">
+        Count is: {{ count }}
+      </button>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="assets/js/my-vue.js?20220912-3"></script>
