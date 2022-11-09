@@ -15,11 +15,10 @@
   </head>
   <body>
     <div id="app">
-      <button @click="count++">
-        Count is: {{ count }}
-      </button>
+      <input v-model="testName" placeholder="お名前">
+      <p>私は{{testName}}です</p>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="assets/js/my-vue.js?20220912-3"></script>
+    <script src="assets/js/my-vue.js?20221109-1"></script>
   </body>
 </html>

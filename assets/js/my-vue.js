@@ -1,10 +1,7 @@
-const HelloVue = {
+Vue.createApp({
   data() {
     return {
-      count: 0,
+      testName: "",
     };
   },
-};
-
-Vue.createApp(HelloVue).mount("#app");
-
+}).mount("#app");
